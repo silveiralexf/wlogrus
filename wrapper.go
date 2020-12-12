@@ -1,4 +1,4 @@
-/*Package wlogrus is a simple wrapper for the increadible logrus package to facilitate formatting and forwarding
+/*Package wlogrus is a simple wrapper for the incredible logrus package to facilitate formatting and forwarding
 structured logs into a central stash or to the standard output
 */
 package wlogrus

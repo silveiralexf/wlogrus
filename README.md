@@ -25,9 +25,9 @@ import (
 )
 
 func main() {
-	informational()
-	somethingSmelling()
-	nothingToSeeHere()
+    informational()
+    somethingSmelling()
+    nothingToSeeHere()
 }
 
 func informational() {
@@ -36,12 +36,12 @@ func informational() {
 }
 
 func somethingSmelling() {
-	wlogrus.Warn("Example2","something is about to go wrong")
-	wlogrus.Error("Example2","something failed, but it might recover/proceed",wlogrus.CallerInfo())
+    wlogrus.Warn("Example2","something is about to go wrong")
+    wlogrus.Error("Example2","something failed, but it might recover/proceed",wlogrus.CallerInfo())
 }
 
 func nothingToSeeHere() {
-	wlogrus.Fatal("Example3","halts execution with an error",wlogrus.CallerInfo())
+    wlogrus.Fatal("Example3","halts execution with an error",wlogrus.CallerInfo())
 }
 ```
 

@@ -1,3 +1,5 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/silveiralexf/wlogrus)](https://goreportcard.com/report/github.com/silveiralexf/wlogrus)
+
 # wlogrus
 
 A simple wrapper for logrus package to facilitate formating logs to console output or forwarding structured logs into a central stash.

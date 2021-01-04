@@ -108,7 +108,7 @@ func consoleOut(m Message) {
 	switch m.Severity {
 	case "DEBUG":
 		logger.WithFields(
-			logrus.Fields{"severity": m.Severity, "tag": m.Tag, "body": m.Body},
+			logrus.Fields{"severity": m.Severity, "tag": m.Tag, "body": m.Body, "caller": m.Location},
 		).WithContext(ctx).Debug(entry)
 	case "INFO":
 		logger.WithFields(
